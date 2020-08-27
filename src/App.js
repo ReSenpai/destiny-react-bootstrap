@@ -18,7 +18,7 @@ function App() {
       <Router>
         <NaviBar />
         <Switch>
-          <Route exact path="/" component={ Home } />
+          <Route exact path={'/destiny-react-bootstrap'} component={ Home } />
           <Route path="/users" component={ Users } />
           <Route path="/about" component={ About } />
         </Switch>

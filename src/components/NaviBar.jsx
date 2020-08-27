@@ -30,7 +30,7 @@ const NaviBar = () => {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link><Link to="/">Home</Link></Nav.Link>
+                            <Nav.Link><Link to="/destiny-react-bootstrap">Home</Link></Nav.Link>
                             <Nav.Link><Link to="/users">Users</Link></Nav.Link>
                             <Nav.Link><Link to="/about">About</Link></Nav.Link>
 
